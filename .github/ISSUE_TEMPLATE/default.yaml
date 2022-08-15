@@ -1,6 +1,6 @@
 name: default
 description: form to suggest new sharing
-title: "[sharing date YYYY-MM-DD]: [sharing title]"
+title: "[sharing date YYYY-MM-DD] [sharing title]"
 body:
   - type: markdown
     attributes:
