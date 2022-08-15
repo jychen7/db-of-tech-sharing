@@ -1,0 +1,27 @@
+name: default
+title: "[sharing date YYYY-MM-DD]: [sharing title]"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to suggest new sharing!
+  - type: input
+    attributes:
+      label: Link
+      description: Link to the sharing
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Company / Person
+      description: Author of sharing? e.g. a company name or a person name
+      placeholder: Github
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Technology
+      description: What technology are involved?
+      placeholder: kafka,flink
+    validations:
+      required: true
